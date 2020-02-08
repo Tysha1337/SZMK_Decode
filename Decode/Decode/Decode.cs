@@ -28,13 +28,47 @@ namespace Decode
                         var fromEncodind = Encoding.GetEncoding("ISO-8859-1");//из какой кодировки
                         var bytes = fromEncodind.GetBytes(cash);
                         var toEncoding = Encoding.GetEncoding(1251);//в какую кодировку
+
                         cash = toEncoding.GetString(bytes);
+
                         while (cash.IndexOf("<FNC1>") != -1)
+                        {
                             cash = cash.Replace("<FNC1>", "и");
+                        }
+
                         cash = cash.Remove(cash.IndexOf('>'), cash.IndexOf('<') - cash.IndexOf('>') + 1);
-                        string[] check = cash.Split('_');
-                        int list = Convert.ToInt32(check[1]);
-                        cash = check[0] + "_" + list + "_" + check[2] + "_" + check[3] + "_" + check[4] + "_" + check[5];
+
+                        String[] ExistingCharaterEnglish = new String[] { "A", "a", "B", "C", "c", "E", "e", "H", "K", "M", "O", "o", "P", "p", "T" };
+
+                        String[] ExistingCharaterRussia = new String[] { "А", "а", "В", "С", "с", "Е", "е", "Н", "К", "М", "О", "о", "Р", "р", "Т" };
+
+                        String[] Temp = cash.Split('_');
+
+                        String ReplaceMark = "";
+
+                        for (int i = 0; i < ExistingCharaterRussia.Length; i++)
+                        {
+                            ReplaceMark = Temp[2].Replace(ExistingCharaterRussia[i], ExistingCharaterEnglish[i]);
+                        }
+
+                        String[] Splitter = Temp[1].Split('и');
+
+                        while (Splitter[0][0] == '0')
+                        {
+                            Splitter[0] = Splitter[0].Remove(0, 1);
+                        }
+
+                        if (Splitter.Length != 1)
+                        {
+                            Temp[1] = Splitter[0] + "и" + Splitter[1];
+                        }
+                        else
+                        {
+                            Temp[1] = Splitter[0];
+                        }
+
+                        cash = Temp[0] + "_" + Temp[1] + "_" + ReplaceMark + "_" + Temp[3] + "_" + Temp[4] + "_" + Temp[5];
+
                         return cash;
                     }
                     else
@@ -47,7 +81,7 @@ namespace Decode
             }
             catch (Exception e)
             {
-                SystemArgs.PrintLog(e.Message);
+                SystemArgs.PrintLog(e.ToString());
                 return e.Message;
             }
         }
