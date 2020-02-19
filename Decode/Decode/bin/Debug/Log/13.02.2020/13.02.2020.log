@@ -1,0 +1,222 @@
+13.02.2020 16:34:05 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:34:05 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:34:09 : Сервер свернут в трей
+13.02.2020 16:38:45 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:38:45 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:38:49 : Сервер свернут в трей
+13.02.2020 16:43:35 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:43:35 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:43:46 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:43:50 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:43:52 : Закрытие сервера
+13.02.2020 16:44:17 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:44:17 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:44:28 : Сервер свернут в трей
+13.02.2020 16:44:53 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:44:53 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:44:59 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:45:01 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:45:04 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:45:11 : Сервер свернут в трей
+13.02.2020 16:46:26 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:46:26 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:46:37 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:47:07 : Сервер свернут в трей
+13.02.2020 16:47:38 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:47:38 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:47:43 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:47:43 : Сервер свернут в трей
+13.02.2020 16:47:52 : Сервер развернут из трея
+13.02.2020 16:47:55 : Закрытие сервера
+13.02.2020 16:48:01 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:48:01 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:48:06 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:48:09 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:48:11 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:48:33 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:48:36 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   в Microsoft.Win32.RegistryKey.GetValue(String name)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 107
+13.02.2020 16:49:08 : Закрытие сервера
+13.02.2020 16:50:01 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:50:01 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:50:03 : Сервер свернут в трей
+13.02.2020 16:51:16 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:51:16 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:51:19 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 121
+13.02.2020 16:52:14 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 121
+13.02.2020 16:52:17 : Закрытие сервера
+13.02.2020 16:52:19 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:52:19 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:52:23 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.DeleteValue(String name, Boolean throwOnMissingValue)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 112
+13.02.2020 16:52:50 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:52:50 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:52:54 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 122
+13.02.2020 16:52:55 : Сервер свернут в трей
+13.02.2020 16:53:15 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:53:15 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:53:17 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:53:20 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:53:58 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:54:08 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:54:08 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:54:11 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:54:12 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:54:13 : Сервер свернут в трей
+13.02.2020 16:54:29 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:54:29 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:54:32 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:54:35 : Сервер свернут в трей
+13.02.2020 16:55:48 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:55:48 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:55:51 : System.ObjectDisposedException: Доступ к закрытому ключу реестра невозможен.
+Имя объекта: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run".
+   в System.ThrowHelper.ThrowObjectDisposedException(String objectName, ExceptionResource resource)
+   в Microsoft.Win32.RegistryKey.EnsureWriteable()
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   в Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   в Decode.Decode_F.AddAutoRun_TSM_Click(Object sender, EventArgs e) в C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\Decode_F.cs:строка 123
+13.02.2020 16:55:52 : Закрытие сервера
+13.02.2020 16:56:37 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 16:56:37 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 16:57:20 : Сервер свернут в трей
+13.02.2020 17:01:14 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 17:01:14 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 17:01:24 : Закрытие сервера
+13.02.2020 17:01:56 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 17:01:56 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 17:01:58 : Закрытие сервера
+13.02.2020 23:14:33 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 23:14:33 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 23:14:36 : Сервер свернут в трей
+13.02.2020 23:14:38 : Сервер развернут из трея
+13.02.2020 23:14:40 : Закрытие сервера
+13.02.2020 23:17:50 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 23:17:50 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 23:17:56 : Сервер развернут из трея
+13.02.2020 23:17:56 : Сервер развернут из трея
+13.02.2020 23:17:57 : Сервер развернут из трея
+13.02.2020 23:18:00 : Закрытие сервера
+13.02.2020 23:22:24 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 23:22:24 : C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\bin\Debug
+13.02.2020 23:22:30 : Закрытие сервера
+13.02.2020 23:23:33 : Запущено слушание клиентов и найдена директория темповых файлов
+13.02.2020 23:23:33 : C:\Windows\system32
+13.02.2020 23:23:38 : Закрытие сервера

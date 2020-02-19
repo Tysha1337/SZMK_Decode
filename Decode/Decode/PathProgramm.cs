@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Decode
 {
@@ -15,9 +16,9 @@ namespace Decode
 
         public PathProgramm()
         {
-            _ConnectApplicationPath = $@"Connect\Application\connect.conf"; //Параметры подключения к приложению
-            _LogPath = $@"Log"; //Путь к директории хранения логов
-            _TempFile = $@"TempFile";//Путь к темповым файлам распознования
+            _ConnectApplicationPath = Application.StartupPath + $@"\Connect\Application\connect.conf"; //Параметры подключения к приложению
+            _LogPath = Application.StartupPath+$@"\Log"; //Путь к директории хранения логов
+            _TempFile = Application.StartupPath + $@"\TempFile";//Путь к темповым файлам распознования
         }
         public String GetDirectory(String Path)
         {

@@ -33,12 +33,13 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Server_TSM = new System.Windows.Forms.ToolStripMenuItem();
             this.Setting_TSM = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Exit_TSM = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.Status_TB = new System.Windows.Forms.TextBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.Exit_TSM = new System.Windows.Forms.ToolStripMenuItem();
+            this.AddAutoRun_TSM = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +70,22 @@
             this.Setting_TSM.Size = new System.Drawing.Size(180, 22);
             this.Setting_TSM.Text = "Настройки";
             this.Setting_TSM.Click += new System.EventHandler(this.Setting_TSM_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AddAutoRun_TSM,
+            this.Exit_TSM});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(66, 20);
+            this.toolStripMenuItem1.Text = "Система";
+            // 
+            // Exit_TSM
+            // 
+            this.Exit_TSM.Name = "Exit_TSM";
+            this.Exit_TSM.Size = new System.Drawing.Size(208, 22);
+            this.Exit_TSM.Text = "Выход";
+            this.Exit_TSM.Click += new System.EventHandler(this.Exit_TSM_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -122,20 +139,12 @@
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.Click += new System.EventHandler(this.notifyIcon1_Click);
             // 
-            // toolStripMenuItem1
+            // AddAutoRun_TSM
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Exit_TSM});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(66, 20);
-            this.toolStripMenuItem1.Text = "Система";
-            // 
-            // Exit_TSM
-            // 
-            this.Exit_TSM.Name = "Exit_TSM";
-            this.Exit_TSM.Size = new System.Drawing.Size(180, 22);
-            this.Exit_TSM.Text = "Выход";
-            this.Exit_TSM.Click += new System.EventHandler(this.Exit_TSM_Click);
+            this.AddAutoRun_TSM.Name = "AddAutoRun_TSM";
+            this.AddAutoRun_TSM.Size = new System.Drawing.Size(208, 22);
+            this.AddAutoRun_TSM.Text = "Добавить в автозагрузку";
+            this.AddAutoRun_TSM.Click += new System.EventHandler(this.AddAutoRun_TSM_Click);
             // 
             // Decode_F
             // 
@@ -175,6 +184,7 @@
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem Exit_TSM;
+        private System.Windows.Forms.ToolStripMenuItem AddAutoRun_TSM;
     }
 }
 

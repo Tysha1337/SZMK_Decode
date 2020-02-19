@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using Microsoft.Win32;
 
 namespace Decode
 {
@@ -18,30 +19,48 @@ namespace Decode
         {
             InitializeComponent();
         }
-
+        const string pathRegistryKeyStartup ="SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run";
+        const string applicationName = "Decode";
+        String value="";
         private void Decode_F_Load(object sender, EventArgs e)
         {
-            SystemArgs.Decode = new Decode();
-            SystemArgs.Path = new PathProgramm();
-            SystemArgs.Server = new Server();
-            if (SystemArgs.Server.GetParametersConnect())
+            try
             {
-                if (SystemArgs.Server.Start())
+                SystemArgs.Decode = new Decode();
+                SystemArgs.Path = new PathProgramm();
+                SystemArgs.Server = new Server();
+                if (SystemArgs.Server.GetParametersConnect())
                 {
-                    SystemArgs.Server.Load += AppendToTB;
-                    SystemArgs.PrintLog(Directory.GetCurrentDirectory());
+                    if (SystemArgs.Server.Start())
+                    {
+                        SystemArgs.Server.Load += AppendToTB;
+                        SystemArgs.PrintLog(Directory.GetCurrentDirectory());
+                        using (RegistryKey registryKeyStartup = Registry.CurrentUser.OpenSubKey(pathRegistryKeyStartup, true))
+                        {
+                            value = (String)registryKeyStartup.GetValue("Decode");
+                        }
+                        if (!String.IsNullOrEmpty(value))
+                        {
+                            AddAutoRun_TSM.Text = "Удалить из автозагрузки";
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Сервер не был запущен", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        SystemArgs.PrintLog("Ошибка запуска сервера");
+                        Environment.Exit(0);
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Сервер не был запущен", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    SystemArgs.PrintLog("Ошибка запуска сервера");
-                    Environment.Exit(0);
+                    MessageBox.Show("Не удалось прочитать данные для запуска сервера", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    SystemArgs.PrintLog("Не удалось прочитать данные для запуска сервера");
                 }
             }
-            else
+            catch(Exception E)
             {
-                MessageBox.Show("Не удалось прочитать данные для запуска сервера", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                SystemArgs.PrintLog("Не удалось прочитать данные для запуска сервера");
+                MessageBox.Show(E.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                SystemArgs.PrintLog(E.ToString());
             }
         }
 
@@ -86,6 +105,36 @@ namespace Decode
         {
             SystemArgs.PrintLog("Закрытие сервера");
             Environment.Exit(0);
+        }
+
+        private void AddAutoRun_TSM_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!String.IsNullOrEmpty(value))
+                {
+                    using (RegistryKey registryKeyStartup = Registry.CurrentUser.OpenSubKey(pathRegistryKeyStartup, true))
+                    {
+                        registryKeyStartup.DeleteValue(applicationName, false);
+                    }
+                    value = "";
+                    AddAutoRun_TSM.Text = "Добавить в автозагрузку";
+                }
+                else
+                {
+                    using (RegistryKey registryKeyStartup = Registry.CurrentUser.OpenSubKey(pathRegistryKeyStartup, true))
+                    {
+                        registryKeyStartup.SetValue(applicationName, Application.ExecutablePath);
+                    }
+                    value = "Decode";
+                    AddAutoRun_TSM.Text = "Удалить из автозагрузки";
+                }
+            }
+            catch(Exception E)
+            {
+                MessageBox.Show("Не удалось изменить параметры автозагрузки", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                SystemArgs.PrintLog(E.ToString());
+            }
         }
     }
 }
