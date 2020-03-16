@@ -54,5 +54,10 @@ namespace Decode
                 MessageBox.Show(E.Message, "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void Setting_F_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

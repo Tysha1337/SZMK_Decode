@@ -186,6 +186,7 @@
             this.Name = "Setting_F";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки сервера";
+            this.Load += new System.EventHandler(this.Setting_F_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
