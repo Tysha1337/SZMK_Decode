@@ -29,3 +29,14 @@ C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\obj\Debug\Decode.csproj.G
 C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\obj\Debug\Decode.csproj.CopyComplete
 C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\obj\Debug\Decode.exe
 C:\Users\thedr\Desktop\Works\SZMK_Decode\Decode\Decode\obj\Debug\Decode.pdb
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\bin\Debug\Decode.exe.config
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\bin\Debug\Decode.exe
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.csprojAssemblyReference.cache
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.Decode_F.resources
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.Properties.Resources.resources
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.Setting_F.resources
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.csproj.GenerateResource.cache
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.csproj.CopyComplete
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.exe
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\obj\Debug\Decode.pdb
+C:\Users\kirill.gubanov\Desktop\Project\SZMK_Decode\Decode\Decode\bin\Debug\Decode.pdb
